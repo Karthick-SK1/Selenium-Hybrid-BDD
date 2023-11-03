@@ -24,7 +24,7 @@ public class DataDriven {
         XSSFWorkbook workbook = new XSSFWorkbook(file);
 
         //Get the Sheet by Sheet Name
-        XSSFSheet sheet = workbook.getSheet("Sheet1");
+        XSSFSheet sheet = workbook.getSheet("Sheet2");
 
         //To Get the Total Number of Rows in the Sheet
         int totalRows = sheet.getLastRowNum();
